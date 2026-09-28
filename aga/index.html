@@ -10,6 +10,8 @@
 <meta property="og:description" content="40代からAGA治療を始めるなら、どのクリニックか。続けやすさを軸に、5院の料金・通いやすさ・診療形態を比較しました。">
 <meta property="og:locale" content="ja_JP">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="../img/favicon.png">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;600;700&amp;family=Zen+Kaku+Gothic+New:wght@400;500;700&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
@@ -153,6 +155,14 @@ td.yen{font-family:var(--mono);white-space:nowrap;font-variant-numeric:tabular-n
 .q::before{content:"Q";font-family:var(--mono);color:var(--green);}
 .a{font-size:14.5px;color:var(--ink-soft);padding-left:1.35em;}
 
+/* merits */
+.merits{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:1px;background:var(--line);border:1px solid var(--line);counter-reset:m;}
+.merits li{background:var(--surface);padding:18px 20px;display:flex;gap:16px;counter-increment:m;}
+.merits li::before{content:counter(m,decimal-leading-zero);flex:0 0 auto;font-family:var(--mono);font-size:13px;font-weight:500;color:var(--brass);padding-top:3px;}
+.merits h3{font-size:15.5px;font-weight:700;margin:0 0 4px;line-height:1.6;}
+.merits p{font-size:14px;color:var(--ink-soft);}
+.merits-lead{margin-bottom:16px;}
+
 .disclaim{background:var(--sunk);border:1px solid var(--line);padding:18px 20px;font-size:13px;line-height:1.85;color:var(--ink-mute);display:flex;flex-direction:column;gap:9px;}
 .disclaim strong{color:var(--ink-soft);}
 </style>
@@ -166,8 +176,20 @@ td.yen{font-family:var(--mono);white-space:nowrap;font-variant-numeric:tabular-n
   <div class="kicker">40代のAGAクリニック選び</div>
   <h1>40代からAGA治療を始めるなら、どのクリニックか</h1>
   <p class="lede">「もう手遅れかもしれない」と思って調べている方へ。40代が実際に続けられるかどうかを軸に、5院を整理しました。料金・通いやすさ・診療形態を横並びで比べられます。</p>
-  <div class="updated">最終更新 2026.08.25</div>
+  <div class="updated">最終更新 2026.09.28</div>
 </header>
+
+<section>
+  <h2>40代から始めるメリット</h2>
+  <p class="small dim merits-lead">「今さら遅いかも…」と迷っていた僕が、実際に始めてみて感じたことも含めてまとめました。40代だからこそのメリットもあるんです！</p>
+  <ol class="merits">
+    <li><div><h3>今ある髪を「守る」選択肢を選べる</h3><p>AGAは進行性とされています。髪が残っているうちに相談すれば、発毛だけでなく、今の状態を維持する「予防」のプランも検討できます。</p></div></li>
+    <li><div><h3>続けられる予算を自分で決められる</h3><p>月3,000円前後からのプランもあり、収入が安定してくる40代なら無理のない範囲で計画を立てやすい年代です。続けられる金額かどうかを先に決めておくと、途中で迷いにくくなります。</p></div></li>
+    <li><div><h3>仕事と両立しやすい</h3><p>オンライン診療なら、スマホで診察から薬の受け取りまで完結できるクリニックも。忙しい平日でも通院の時間をつくる必要がありません。</p></div></li>
+    <li><div><h3>一人で悩む時間を終わりにできる</h3><p>鏡を見るたびに気にしていた時間が、医師に現状を診てもらうだけでぐっと軽くなりました。「わからない不安」が「やることリスト」に変わるのが、いちばん大きな変化かもしれません！</p></div></li>
+  </ol>
+  <p class="small dim" style="margin-top:12px;">効果や経過には個人差があります。治療の可否は医師の診断によります。</p>
+</section>
 
 <section class="verdict">
   <h2>結論から</h2>
