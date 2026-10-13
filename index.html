@@ -59,7 +59,8 @@ body{background:var(--ground);color:var(--ink);font-family:var(--gothic);line-he
 
 .prbar{background:var(--sunk);border-top:1px solid var(--line);padding:7px 20px;font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;color:var(--ink-mute);text-align:center;}
 
-.masthead{padding:44px 0 32px;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:12px;align-items:center;text-align:center;}
+.prtag{display:inline-block;margin-top:16px;font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;line-height:1;color:var(--ink-mute);border:1px solid var(--line);padding:4px 7px;}
+.masthead{padding:22px 0 32px;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:12px;align-items:center;text-align:center;}
 .mark{width:112px;height:112px;border-radius:50%;overflow:hidden;background:var(--surface);box-shadow:0 0 0 1px var(--line);}
 .mark img{width:100%;height:100%;object-fit:cover;transform:scale(1.06);display:block;}
 h1{font-family:var(--mincho);font-weight:700;font-size:26px;line-height:1.45;margin:0;}
@@ -84,6 +85,8 @@ footer{margin-top:28px;font-family:var(--mono);font-size:11.5px;color:var(--ink-
 <body>
 
 <div class="wrap">
+
+<div class="prtag" aria-label="広告">PR</div>
 
 <header class="masthead">
   <div class="mark"><img src="./img/taka.jpg" width="112" height="112" alt="タカのアイコン"></div>
